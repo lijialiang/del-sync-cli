@@ -1,0 +1,25 @@
+{
+  "name": "del-sync-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilijialiang/del-sync-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lilijialiang/del-sync-cli/issues"
+  },
+  "homepage": "https://github.com/lilijialiang/del-sync-cli#readme",
+  "dependencies": {
+    "del": "^3.0.0"
+  },
+  "bin": {
+    "del": "./index.js"
+  }
+}
