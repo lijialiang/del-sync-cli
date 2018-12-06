@@ -15,7 +15,7 @@ for (let i = 2; i < process.argv.length; i++) {
 
 files.length === 0 && console.log(`v${version}`) && process.exit(1)
 
-files = globby.sync(files)
+files = globby.sync(files, { dot: true })
 
 del.sync(files, { force: true })
 
