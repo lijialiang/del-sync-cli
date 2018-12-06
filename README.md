@@ -13,5 +13,5 @@ yarn global add del-sync-cli
 ## Example
 
 ```sh
-del '**/*' '!s'
+del '**/*' '!c/e'
 ```
